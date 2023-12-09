@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-package com.application.rest.repository;public interface MakerRepository {
-}
-=======
+
 package com.application.rest.repository;
 
 import com.application.rest.entities.Maker;
@@ -11,4 +8,3 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface MakerRepository extends CrudRepository<Maker, Long> {
 }
->>>>>>> 8f7493f (Creacion Repository)
